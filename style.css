@@ -1,0 +1,430 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;600;800;900&family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Red+Hat+Display:wght@900&display=swap');
+
+* {box-sizing: border-box;}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  width: 100%;
+
+  align-items: center;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+
+/* header */
+
+/*  */ 
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+}
+.head-center {
+  height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right:  16px;
+  padding-left: 16px;
+}
+
+.header-text {
+  color: #13183F;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.buttonhead {
+  width: 140px;
+  height: 48px;
+  background: #13183F;
+  border-radius: 24px;
+  border: none;
+  color: white;
+    font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+.buttonhead:hover {
+  background: #666CA3;
+}
+
+.sec {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 16px;
+  padding-bottom: 86px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+
+
+
+
+
+/* I Block */
+
+.budget-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.space {
+  /* padding: 16px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 0;
+  /* background-color: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%); */
+}
+
+.maximize {
+  color:#13183F;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.text-cont {
+  width: 100%;
+  max-width: 398px;
+  padding: 16px;
+}
+
+.phead {
+  color:#83869A;
+  /* font-weight: 500; */
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 26px;
+  /* font-style: normal; */
+  padding-bottom: 26px;
+
+}
+
+.button-2 {
+  width: 167px;
+  height: 56px;
+  background:  linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);;
+  border-radius: 31.5px;
+  border: none;
+  color: white;
+    font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button-2:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+/* photos */
+
+.mobile-photo {
+  padding-top: 46px;
+  max-width: 375px;
+  display: flex;
+  justify-content: center;
+}
+
+.tablet-photo {
+  display: none;
+}
+
+
+.checkbox {
+  max-width: 340px;
+  height: 120px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check {
+  color:#FFFFFF;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 26px;
+  padding-top: 26px;
+  font-style: normal;
+  padding: 28px;
+  line-height: 28px;
+
+
+
+}
+
+/* card containers */
+
+
+
+.container {
+  background-color: #FFFFFF;
+  max-width: 340px;
+  border-radius: 10px;
+  padding-bottom: 48px;
+  margin-top: 40px;
+  padding: 16px;
+  
+}
+
+.animation {
+  font-weight: 800;
+  font-size: 20px;
+  color: #13183F;
+  padding-top: 24px;
+  
+
+
+}
+
+.imga {
+  margin-top: -50px;
+}
+
+
+.text-container {
+  color:#83869A;
+  padding-top: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+ 
+}
+
+
+.get {
+  font-weight: 700;
+  font-size: 18px;
+  color: #F74780;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  cursor: pointer;
+  width: 110px;
+
+}
+
+.get:hover {
+  color: #666CA3;
+}
+
+/* .imga {} */
+
+
+/* footer */
+
+footer {
+  background-color: #13183F;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+
+.footer-container {
+
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+
+.footer-click {
+  width: 140px;
+  height: 48px;
+  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);;
+  border-radius: 24px;
+  border: none;
+  color: white;
+    font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer-click:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+
+.footer-text {
+  color: white;
+  font-weight: 800;
+  font-size: 28px;
+
+}
+
+
+
+
+/* tablet version */
+@media screen and (min-width: 768px) {
+  
+  body {
+    background: url("./assets/image-hero-tablet.png");
+    background-size: 640px 640px;
+    background-position: top -75px right -280px;
+    background-repeat: no-repeat;
+
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .head-center {
+
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .top {
+    width: 100%;
+    padding-left: 39px;
+    padding-right: 39px;
+    padding-top: 16px;
+
+  }
+  
+  .budget-container {
+    width: 100%;
+    flex-direction: row;
+    justify-content: unset;
+    margin-top: 70px;
+        padding-left: 23px;
+
+
+  }
+
+  .text-cont {
+
+    flex-basis: 50%;
+  }
+  
+  .picture-container {
+    display: none;
+  }
+
+  .mobile-photo {
+    display: none;
+  }
+
+  .tablet-photo {
+    display: none;
+
+    transform: translate(25%, -100px);
+  }
+
+  .sec {
+    margin-top: 120px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    gap: 11px;
+  }
+
+  .checkbox {
+    height: 259px;
+    border-radius: 10px;
+    margin-top: 27px;
+    
+  }
+
+  .check {
+    display: flex;
+    padding-bottom: 120px;
+  }
+
+  
+  footer {
+    width: 100%;
+
+
+  }
+
+  .footer-container {
+
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  body {
+
+    background-image: url("./assets/image-hero-desktop@2x.png");
+    background-size:  800px;
+    background-position: top -120px right -200px;
+    background-repeat: no-repeat;
+
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .head-center {
+    max-width: 1110px;
+  }
+
+  .top {
+
+    padding-top: 29px;
+    display: flex;
+    max-width: 1110px;
+
+  }
+
+  .budget-container {
+    margin-top: 120px;
+    max-width: 1110px;
+  }
+
+
+  .sec {
+    margin-top: 80px;
+    gap: 15px;
+    max-width: 1110px;
+
+
+  }
+
+
+  footer {
+    width: 100%;
+  }
+
+  .footer-container {
+    max-width: 1110px;
+  }
+  .container {
+    height: 346px;
+    display: flex;
+    align-items:baseline;
+    gap: 30px;
+    flex-direction: column;
+    padding-left: 32px;
+    
+  }
+  .checkbox {
+    height: 359px;
+    padding-top: px;
+  }
+  .check {
+
+    line-height: 40px;
+    font-size: 32px;
+  }
+}
